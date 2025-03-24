@@ -1,0 +1,154 @@
+﻿//using System;
+//using System.Linq;
+
+namespace AlgorytmGenetyczny
+{
+
+    class Osobnik
+    {
+        public static int chromLen;
+        public static double xMin, xMax;
+        public string x1 { get; }
+        public string x2 { get; }
+
+        public double x1Val { get; set; }
+        public double x2Val { get; set; }
+        
+        public double? ocena { get; set; }
+        
+
+        public Osobnik(string x1, string x2)
+        {
+            this.x1 = x1;
+            this.x2 = x2;
+            x1Val = decode(x1);
+            x2Val = decode(x2);
+            ocena = null;
+        }
+        
+        private double decode(string x)
+        {
+            double ZD = xMax - xMin;
+            double ctmp = 0;
+            string codeRev = new string(x.Reverse().ToArray());
+
+            if (x.All(c => c == '0')) {return xMin;}
+            if (x.All(c => c == '1')) {return xMax;}
+            
+            for (int i = 0; i < x.Length; i++)
+            {
+                if (codeRev[i] != '0')
+                {
+                    ctmp += Math.Pow(2, i);
+                }
+            }
+            return Math.Round(xMin + ctmp/(Math.Pow(2, x.Length) - 1) * ZD, 2);
+        }
+
+        public void pokazststyczne()
+        {
+            Console.WriteLine($"{xMin}, {xMax}, {chromLen}");
+        }
+        
+        public void pokazOsobnika()
+        {
+            Console.WriteLine($"{x1} | {x2}  = {x1Val,6:F2} | {x2Val,6:F2}\tocena: {ocena,5:F2}");
+        }
+    }
+    
+    
+    class Program
+    {
+        static List<Osobnik> inicjalizujPopulacje(int liczbaosobnikow, int LBnP)
+        {
+            List<Osobnik> populacja = new List<Osobnik>();
+            Random random = new Random();
+            
+            for (int i = 0; i < liczbaosobnikow; i++)
+            {
+                string x1 = "", x2 = "";
+                
+                for (int j = 0; j < LBnP; j++)
+                {
+                    string chrom1 = Convert.ToString(random.Next(0, 2));
+                    x1 += chrom1;
+                    string chrom2 = Convert.ToString(random.Next(0, 2));
+                    x2 += chrom2;
+                }
+                Osobnik osobnik = new Osobnik(x1, x2);
+                populacja.Add(osobnik);
+            }
+            return  populacja;
+        }
+
+        static void wyswietlListe(List<Osobnik> populacja)
+        {
+            foreach (var osobnik in populacja)
+            {
+                osobnik.pokazOsobnika();
+            }
+        }
+        /*
+        static double decode(string code, int LBnP, double xMin, double xMax)
+        {
+            double ZD = xMax - xMin;
+            double ctmp = 0;
+            string codeRev = new string(code.Reverse().ToArray());
+
+            if (code.All(c => c == '0')) {return xMin;}
+            if (code.All(c => c == '1')) {return xMax;}
+            
+            for (int i = 0; i < code.Length; i++)
+            {
+                if (codeRev[i] != '0')
+                {
+                    ctmp += Math.Pow(2, i);
+                }
+            }
+            return Math.Round(xMin + ctmp/(Math.Pow(2, code.Length) - 1) * ZD, 2);
+        }
+        */
+        /*static void przypiszWartosci(List<Osobnik> populacja, int LBnP, double xMin, double xMax)
+        {
+            foreach (var osobnik in populacja)
+            {
+                osobnik.x1Val = decode(osobnik.x1, LBnP, xMin, xMax);
+                osobnik.x2Val = decode(osobnik.x2, LBnP, xMin, xMax);
+            }
+        }
+        */
+        static void ocenPopulacje(List<Osobnik> populacja)
+        {
+            foreach (var osobnik in populacja)
+            {
+                if (osobnik.ocena == null)
+                {
+                    osobnik.ocena = Math.Sin(osobnik.x1Val * 0.05) + Math.Sin(osobnik.x2Val * 0.05) +
+                                    0.4 * Math.Sin(osobnik.x1Val * 0.15) * Math.Sin(osobnik.x2Val * 0.15);
+                }
+            }
+
+        }
+        
+        
+        static void Main(string[] args)
+        {
+            int LBnP = 3;
+            int liczbaParam = 2;
+            int dlugoscOsobnika = LBnP * liczbaParam;
+            int liczbaOsobnikow = 9;
+            int liczbaIteracji = 20;
+            double xMin = 0, xMax = 100;
+            Osobnik.chromLen = dlugoscOsobnika;
+            Osobnik.xMin = xMin;
+            Osobnik.xMax = xMax;
+            List<Osobnik> populacja = inicjalizujPopulacje(liczbaOsobnikow, LBnP);
+            populacja.Add(new Osobnik("010", "010"));
+            //przypiszWartosci(populacja, LBnP, xMin, xMax);
+            ocenPopulacje(populacja);
+            wyswietlListe(populacja);
+            populacja[3].pokazststyczne();
+        }
+    }
+}
+
