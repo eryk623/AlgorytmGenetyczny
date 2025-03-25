@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace AlgorytmGenetyczny
 {
     class Specimen
@@ -78,7 +80,6 @@ namespace AlgorytmGenetyczny
             {
                 specimen.showSpecimen();
             }
-            Console.WriteLine();
         }
         
         static void evaluatePopulation(List<Specimen> population)
@@ -92,7 +93,7 @@ namespace AlgorytmGenetyczny
                 }
             }
         }
-
+        //może tu być problem z wydajnością bo będę brał tylko najepszych?
         static List<Specimen> tournamentSelection(List<Specimen> population)
         {
             List<Specimen> selected = new List<Specimen>();
@@ -104,29 +105,12 @@ namespace AlgorytmGenetyczny
                 Specimen choice2 = population[random.Next(0, population.Count)];
                 selected.Add(choice1.rate >= choice2.rate ?  choice1 : choice2);
             }
+            selected.Add(population.MaxBy(specimen => specimen.rate));            // źle to dopier po zakończeniu parowania i potomstwa po mutacji
             
             return selected;
         }
-
-        static List<Specimen> mutator(List<Specimen> newPopulation)
-        {
-            List<Specimen> mutated = new List<Specimen>();
-            Random random = new Random();
-
-            foreach (var specimen in newPopulation)
-            {
-                int bPoint = random.Next(0, specimen.specimen.Length);
-                char[] chrom = specimen.specimen.ToCharArray();
-                chrom[bPoint] = chrom[bPoint] == '0' ? '1' : '0';
-                mutated.Add(new Specimen(new string(chrom)));
-            }
-            return mutated;
-        }
-
-        static void hotDeck(List<Specimen> newPopulation, List<Specimen> population)
-        {
-            newPopulation.Add(population.MaxBy(s => s.rate));
-        }
+        
+        
         
         
         static void Main(string[] args)
@@ -148,12 +132,9 @@ namespace AlgorytmGenetyczny
             population.Add(new Specimen("010010"));
             evaluatePopulation(population);
             showPopulation(population);
-            List<Specimen> newPopulation = tournamentSelection(population);
-            showPopulation(newPopulation);
-            newPopulation = mutator(newPopulation);
-            evaluatePopulation(newPopulation);
-            hotDeck(newPopulation, population);
-            showPopulation(newPopulation);
+            population[3].showStatics();
+            Specimen best = population.MaxBy(Specimen => Specimen.rate);
+            best.showSpecimen();
         }
     }
 }

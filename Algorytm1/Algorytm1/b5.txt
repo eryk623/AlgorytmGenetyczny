@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace AlgorytmGenetyczny
 {
     class Specimen
@@ -118,7 +120,7 @@ namespace AlgorytmGenetyczny
                 int bPoint = random.Next(0, specimen.specimen.Length);
                 char[] chrom = specimen.specimen.ToCharArray();
                 chrom[bPoint] = chrom[bPoint] == '0' ? '1' : '0';
-                mutated.Add(new Specimen(new string(chrom)));
+                mutated.Add(new Specimen(new  string(chrom)));
             }
             return mutated;
         }

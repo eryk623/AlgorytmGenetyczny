@@ -26,3 +26,18 @@ C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\
 C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\Algortym Genetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.pdb
 C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\Algortym Genetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.genruntimeconfig.cache
 C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\Algortym Genetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\ref\Algorytm1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\bin\Debug\net9.0\Algorytm1.exe
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\bin\Debug\net9.0\Algorytm1.deps.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\bin\Debug\net9.0\Algorytm1.runtimeconfig.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\bin\Debug\net9.0\Algorytm1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\bin\Debug\net9.0\Algorytm1.pdb
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.AssemblyInfoInputs.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.AssemblyInfo.cs
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.csproj.CoreCompileInputs.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.sourcelink.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\refint\Algorytm1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.pdb
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\Algorytm1.genruntimeconfig.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Algorytm1\Algorytm1\obj\Debug\net9.0\ref\Algorytm1.dll
