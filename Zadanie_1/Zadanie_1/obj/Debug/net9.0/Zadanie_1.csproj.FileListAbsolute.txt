@@ -1,0 +1,15 @@
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\bin\Debug\net9.0\Zadanie_1.exe
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\bin\Debug\net9.0\Zadanie_1.deps.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\bin\Debug\net9.0\Zadanie_1.runtimeconfig.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\bin\Debug\net9.0\Zadanie_1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\bin\Debug\net9.0\Zadanie_1.pdb
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.AssemblyInfoInputs.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.AssemblyInfo.cs
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.csproj.CoreCompileInputs.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.sourcelink.json
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\refint\Zadanie_1.dll
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.pdb
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\Zadanie_1.genruntimeconfig.cache
+D:\GIT_Projekt\AlgorytmGenetyczny\Zadanie_1\Zadanie_1\obj\Debug\net9.0\ref\Zadanie_1.dll
