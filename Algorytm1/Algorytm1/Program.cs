@@ -3,13 +3,14 @@ namespace AlgorytmGenetyczny
 {
     class Specimen
     {
-        public static int paramNum, LBnP, chromLen;
+        public static int NumOfPar, LBnP;
+        public static int chromLen => NumOfPar * LBnP;
         public static double minVal, maxVal;
-        public string specimen { get; set; }
-        public string x1 { get; set; }
-        public string x2 { get; set; }
-        public double x1Val { get; set; }
-        public double x2Val { get; set; }
+        public string specimen { get; private set; }
+        public string x1 { get; private set; }
+        public string x2 { get; private set; }
+        public double x1Val { get; private set; }
+        public double x2Val { get; private set; }
         public double? rate { get; set; }
         
         public Specimen(string specimen)
@@ -39,11 +40,6 @@ namespace AlgorytmGenetyczny
                 }
             }
             return Math.Round(minVal + ctmp/(Math.Pow(2, x.Length) - 1) * ZD, 2);
-        }
-
-        public void showStatics()
-        {
-            Console.WriteLine($"{minVal}, {maxVal}, {chromLen}, {paramNum}, {LBnP}");
         }
         
         public void showSpecimen()
@@ -78,7 +74,6 @@ namespace AlgorytmGenetyczny
             {
                 specimen.showSpecimen();
             }
-            Console.WriteLine();
         }
         
         static void evaluatePopulation(List<Specimen> population)
@@ -87,8 +82,8 @@ namespace AlgorytmGenetyczny
             {
                 if (specimen.rate == null)
                 {
-                    specimen.rate = Math.Sin(specimen.x1Val * 0.05) + Math.Sin(specimen.x2Val * 0.05) +
-                                    0.4 * Math.Sin(specimen.x1Val * 0.15) * Math.Sin(specimen.x2Val * 0.15);
+                    specimen.rate = Math.Round(Math.Sin(specimen.x1Val * 0.05) + Math.Sin(specimen.x2Val * 0.05) +
+                                    0.4 * Math.Sin(specimen.x1Val * 0.15) * Math.Sin(specimen.x2Val * 0.15), 2);
                 }
             }
         }
@@ -127,33 +122,42 @@ namespace AlgorytmGenetyczny
         {
             newPopulation.Add(population.MaxBy(s => s.rate));
         }
-        
+
+        static void geneticAlghoritm(int iterationCount, int specimenCount)
+        {
+            List<Specimen> population = initializePopulation(specimenCount, Specimen.chromLen);
+            evaluatePopulation(population);
+            Specimen theBest = population.MaxBy(s => s.rate);
+            double populationAverage = Math.Round((double)population.Average(s => s.rate), 2);
+            Console.WriteLine("Pierwsza populacja");
+            showPopulation(population);
+            Console.WriteLine($"Najlepszy z populacji:  {theBest.specimen} | {theBest.rate}\nŚrednia populacji: {populationAverage}\n");
+            
+            for (int i = 0; i < iterationCount; i++)
+            {
+                List<Specimen> newPopulation = tournamentSelection(population);
+                newPopulation = mutator(newPopulation);
+                evaluatePopulation(newPopulation);
+                hotDeck(newPopulation, population);
+                theBest = newPopulation.MaxBy(s => s.rate);
+                populationAverage = Math.Round((double)newPopulation.Average(s => s.rate), 2);
+                Console.WriteLine($"Iteracja numer: {i + 1}");
+                showPopulation(newPopulation);
+                Console.WriteLine($"Najlepszy z populacji:  {theBest.specimen} | {theBest.rate}\nŚrednia populacji: {populationAverage}\n");
+                population = newPopulation;
+            }
+        }
         
         static void Main(string[] args)
         {
-            int LBnP = 3;
-            int paramNum = 2;
-            int specimenLen = LBnP * paramNum;
             int specimenCount = 9;
             int iterationCount = 20;
-            double xMin = 0, xMax = 100;
+            Specimen.LBnP = 3;
+            Specimen.NumOfPar = 2;
+            Specimen.minVal = 0;
+            Specimen.maxVal = 100;
             
-            Specimen.LBnP = LBnP;
-            Specimen.paramNum = paramNum;
-            Specimen.chromLen = LBnP * paramNum;
-            Specimen.minVal = xMin;
-            Specimen.maxVal = xMax;
-            
-            List<Specimen> population = initializePopulation(specimenCount, specimenLen);
-            population.Add(new Specimen("010010"));
-            evaluatePopulation(population);
-            showPopulation(population);
-            List<Specimen> newPopulation = tournamentSelection(population);
-            showPopulation(newPopulation);
-            newPopulation = mutator(newPopulation);
-            evaluatePopulation(newPopulation);
-            hotDeck(newPopulation, population);
-            showPopulation(newPopulation);
+            geneticAlghoritm(iterationCount, specimenCount);
         }
     }
 }
