@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ewidl\\OneDrive - University of Warmia and Mazuria in Olsztyn\\6-SEMESTR\\MIW\\Algortym Genetyczny\\Algorytm1\\Algorytm1\\Algorytm1.csproj",
+      "projectUniqueName": "D:\\GIT_Projekt\\AlgorytmGenetyczny\\Algorytm1\\Algorytm1\\Algorytm1.csproj",
       "projectName": "Algorytm1",
-      "projectPath": "C:\\Users\\ewidl\\OneDrive - University of Warmia and Mazuria in Olsztyn\\6-SEMESTR\\MIW\\Algortym Genetyczny\\Algorytm1\\Algorytm1\\Algorytm1.csproj",
+      "projectPath": "D:\\GIT_Projekt\\AlgorytmGenetyczny\\Algorytm1\\Algorytm1\\Algorytm1.csproj",
       "packagesPath": "C:\\Users\\ewidl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ewidl\\OneDrive - University of Warmia and Mazuria in Olsztyn\\6-SEMESTR\\MIW\\Algortym Genetyczny\\Algorytm1\\Algorytm1\\obj\\",
+      "outputPath": "D:\\GIT_Projekt\\AlgorytmGenetyczny\\Algorytm1\\Algorytm1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ewidl\\AppData\\Roaming\\NuGet\\NuGet.Config",

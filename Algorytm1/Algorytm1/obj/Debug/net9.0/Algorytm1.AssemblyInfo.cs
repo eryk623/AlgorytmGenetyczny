@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algorytm1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cb9c7242b12eeb9a55113757366ec8a8973f032")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algorytm1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algorytm1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
