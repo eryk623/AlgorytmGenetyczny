@@ -1,0 +1,1 @@
+Ostateczna wersja to GeneticAlgorithmWPF
