@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GeneticAlgorithmWPF/1.0.0": {
+        "runtime": {
+          "GeneticAlgorithmWPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeneticAlgorithmWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
