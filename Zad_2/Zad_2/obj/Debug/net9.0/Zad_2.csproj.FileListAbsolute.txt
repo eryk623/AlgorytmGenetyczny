@@ -1,0 +1,42 @@
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfoInputs.cache
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfo.cs
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.csproj.CoreCompileInputs.cache
+D:\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.exe
+D:\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.deps.json
+D:\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.runtimeconfig.json
+D:\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.dll
+D:\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.pdb
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.dll
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\refint\Zad_2.dll
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.pdb
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.genruntimeconfig.cache
+D:\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\ref\Zad_2.dll
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.exe
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.deps.json
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.runtimeconfig.json
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.dll
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.pdb
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.dll
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\refint\Zad_2.dll
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.pdb
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\ref\Zad_2.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.exe
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.deps.json
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.runtimeconfig.json
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\bin\Debug\net9.0\Zad_2.pdb
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfoInputs.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.AssemblyInfo.cs
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.csproj.CoreCompileInputs.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\refint\Zad_2.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.pdb
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\Zad_2.genruntimeconfig.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_2\Zad_2\obj\Debug\net9.0\ref\Zad_2.dll

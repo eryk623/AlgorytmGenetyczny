@@ -1,0 +1,29 @@
+
+            List<Specimen> population = initializePopulation(specimenCount, Specimen.chromLen);
+            List <(double, double)> probes = getProbes();
+            evaluatePopulation(population, probes);
+            showPopulation(population);
+            Console.WriteLine();
+            List<Specimen> newPopulation = tournamentSelection(population);
+            showPopulation(newPopulation);
+            Console.WriteLine();
+            hybridization(newPopulation);
+            showPopulation(newPopulation);
+            Console.WriteLine();
+            mutator(newPopulation);
+            showPopulation(newPopulation);
+            Console.WriteLine();
+            evaluatePopulation(newPopulation, probes);
+            showPopulation(newPopulation);
+            Console.WriteLine();
+            hotDeck(newPopulation, population);
+            showPopulation(newPopulation);
+            Console.WriteLine();
+            
+                        List <(double, double)> probes = getProbes();
+            Specimen sg = new Specimen("000011111111");
+            List<Specimen> kkkkk = new List<Specimen>();
+            kkkkk.Add(sg);
+            evaluatePopulation(kkkkk,probes);
+            showPopulation(kkkkk);
+            
