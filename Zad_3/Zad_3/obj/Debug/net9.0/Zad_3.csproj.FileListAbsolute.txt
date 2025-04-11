@@ -1,0 +1,14 @@
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\bin\Debug\net9.0\Zad_3.exe
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\bin\Debug\net9.0\Zad_3.deps.json
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\bin\Debug\net9.0\Zad_3.runtimeconfig.json
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\bin\Debug\net9.0\Zad_3.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\bin\Debug\net9.0\Zad_3.pdb
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.AssemblyInfoInputs.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.AssemblyInfo.cs
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.csproj.CoreCompileInputs.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\refint\Zad_3.dll
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.pdb
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\Zad_3.genruntimeconfig.cache
+C:\Users\ewidl\OneDrive - University of Warmia and Mazuria in Olsztyn\6-SEMESTR\MIW\GENETYCZNY\Zad_3\Zad_3\obj\Debug\net9.0\ref\Zad_3.dll
